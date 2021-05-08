@@ -20,7 +20,6 @@ class App extends Component {
       }
       this.setState({ todos: [...this.state.todos, newTodo] });
     }
-    return alert('Empty todo')
   };
 
   // Mark todo as complete
