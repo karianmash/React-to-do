@@ -11,13 +11,16 @@ class App extends Component {
 
   // Add todo
   addTodo = (title) => {
-    const newTodo = {
-      //Generate a random ID 
-      id: Math.random(),
-      title,
-      completed: false
+    if (title.length > 0) {
+      const newTodo = {
+        //Generate a random ID 
+        id: Math.random(),
+        title,
+        completed: false
+      }
+      this.setState({ todos: [...this.state.todos, newTodo] });
     }
-    this.setState({ todos: [...this.state.todos, newTodo] });
+    return alert('Empty todo')
   };
 
   // Mark todo as complete
