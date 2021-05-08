@@ -2,7 +2,7 @@
 
 To do app version in Reactjs
 
-![Screenshot](img/screenshot.png)
+![Screenshot](src/img/screenshot.png)
 
 # Features
 
@@ -15,4 +15,4 @@ To do app version in Reactjs
 - Reactjs
 - Toggle mark-complete
 
-![Screenshot1](img/screenshot1.png)
+![Screenshot1](src/img/screenshot1.png)
